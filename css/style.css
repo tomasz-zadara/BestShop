@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-grey: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+    --font-Raleway: "Raleway", sans-serif;
+    --font-Open-Sans: "Open Sans", sans-serif;
+}
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+body {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1352px;
+}
+
+.main-header {
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-logo {
+    text-align: left;
+    font-family: var(--font-Raleway);
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--color-primary);
+    opacity: 1;
+    margin: 16px 0px 17px 136px;
+    cursor: pointer;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list-item {
+
+}
+
+.navbar-list-item:nth-of-type(1) {
+    margin-right: 95px;
+}
+
+.navbar-list-item:nth-of-type(2) {
+    margin-right: 95px;
+}
+
+.navbar-list-item:nth-of-type(3) {
+    margin-right: 94px;
+}
+
+.navbar-list-item:nth-of-type(4) {
+    margin-right: 136px;
+}
+
+.navbar-list-link {
+    text-align: center;
+    font-family: var(--font-Open-Sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3.28px;
+    color: var(--color-grey);
+    opacity: 1;
+    border-bottom: 4px solid transparent;
+    padding: 28px 0px 25px 0px;
+    text-transform: uppercase;
+}
+
+.navbar-list-link:hover {
+    color: var(--color-black);
+    border-color: var(--color-primary);
+    cursor: pointer;
+
+}
+
+.main-opening-section {
+
+}
+
+.opening-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-section-title {
+    text-align: center;
+    font-family: var(--font-Raleway);
+    font-size: 49px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 130px 0px 20px 0px;
+}
+
+.opening-section-text {
+    text-align: center;
+    font-family: var(--font-Open-Sans);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 0px 0px 38px 0px;
+}
+
+.opening-section-button {
+    text-align: center;
+    font-family: var(--font-Open-Sans);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: var(--color-white);
+    opacity: 1;
+    display: inline-block;
+    padding: 22px 157px 23px 157px;
+    border-radius: 40px;
+    background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px var(--color-primary-shadow);
+    cursor: pointer;
+}
+
+.opening-section-image {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    background-position: bottom;
+}
