@@ -68,7 +68,6 @@ a {
 }
 
 .navbar-list-item {
-
 }
 
 .navbar-list-item:nth-of-type(1) {
@@ -104,11 +103,9 @@ a {
     color: var(--color-black);
     border-color: var(--color-primary);
     cursor: pointer;
-
 }
 
 .main-opening-section {
-
 }
 
 .opening-section {
@@ -161,4 +158,102 @@ a {
     height: auto;
     opacity: 1;
     background-position: bottom;
+}
+
+.main-stats {
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-title {
+    text-align: center;
+    font-family: var(--font-Raleway);
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 100px 0px 100px 0px;
+}
+
+.stats-column {
+    display: flex;
+    width: 66%;
+    justify-content: space-between;
+    margin-bottom: 121px;
+}
+
+.stats-column-item {
+    height: 100%;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-number {
+    text-align: center;
+    font-family: var(--font-Raleway);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 5.96px;
+    color: var(--color-black);
+    opacity: 1;
+    margin: 14.18px 0px 19.11px 0px
+}
+
+.stats-text {
+    text-align: center;
+    font-family: var(--font-Raleway);
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    opacity: 1;
+}
+
+.stats-red-circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-redish);
+}
+
+.stats-blue-circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-primary);
+}
+
+.stats-green-circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    background-color: var(--color-green);
+}
+
+.stats-circle-icon {
+    display: flex;
+}
+
+.stats-icon-red {
+    z-index: 2;
+    margin-left: -30px;
+}
+
+.stats-icon-blue {
+    z-index: 2;
+    margin-left: -42px;
+}
+
+.stats-icon-green {
+    z-index: 2;
+    margin-left: -30px;
 }
