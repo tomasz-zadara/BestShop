@@ -257,3 +257,65 @@ a {
     z-index: 2;
     margin-left: -30px;
 }
+
+.main-footer {
+    background-color: var(--color-light-grey);
+    box-shadow: 0px -5px 40px #00000029;
+    opacity: 1;
+    height: 89px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 20.48px;
+    margin-bottom: 17px;
+}
+
+.footer-company-name {
+    text-align: left;
+    font-family: var(--font-Raleway);
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: var(--color-primary);
+    opacity: 1;
+    margin-bottom: 6.52px;
+}
+
+.footer-rights {
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    opacity: 1;
+    margin-bottom: 6.52px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.social-media-link:first-child{
+    margin-right: 10px;
+}
+
+.social-media-link:last-child{
+    margin-left: 10px;
+}
