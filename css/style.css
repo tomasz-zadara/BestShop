@@ -319,3 +319,199 @@ a {
 .social-media-link:last-child{
     margin-left: 10px;
 }
+
+/*Stylowanie sekcji Kontakt*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 59px;
+}
+
+/*Stylowanie kolumny Pytania*/
+
+.contact-questions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-right: 114px;
+    margin-bottom: 211px;
+}
+
+.contact-questions-header {
+    text-align: left;
+    font-family: var(--font-Raleway);
+    font-size: 49px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    padding: 0;
+    margin-bottom: 22px;
+    align-self: flex-start;
+}
+
+.contact-questions-text {
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.contact-email-and-phone {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-items {
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    opacity: 1;
+}
+
+.contact-items:first-child {
+    margin-right: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+/*Stylowanie kolumny Formularza*/
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-height: 372px;
+    max-width: 440px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Stylowanie kolumny Formularza - część 1*/
+
+.form-part-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.form-label-text {
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3.28px;
+    color: var(--color-primary);
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.form-input-text {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid var(--color-grey);
+    background-color: transparent;
+    line-height: 41px;
+    width: 100%;
+}
+
+.form-input-text:first-child {
+    margin-bottom: 42px;
+}
+
+.form-input-text:last-child {
+    margin-bottom: 30px;
+}
+
+/*Stylowanie kolumny Formularza - część 2*/
+
+.form-part-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.checkbox {
+    display: flex;
+    cursor: pointer;
+}
+
+.checkbox input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.checkbox span {
+    height: 24px;
+    width: 24px;
+    flex-shrink: 0;
+    flex-basis: 24px;
+    background-color: var(--color-white);
+    border: 1px solid #95989A;
+    border-radius: 4px;
+    opacity: 1;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox-text {
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    line-height: 17px;
+}
+
+.checkbox input:checked + span {
+    background-image: url("../images/Checkmark.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.button-send {
+    background-color: var(--color-primary);
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 35px;
+    padding: 20px 97px 19px 97px;
+    text-align: left;
+    font-family: var(--font-Open-Sans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: var(--color-white);
+    opacity: 1;
+    border: none;
+    margin-top: 20px;
+    display: inline-block;
+    align-self: flex-end;
+}
